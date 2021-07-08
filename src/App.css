@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar-nav {
+  margin-left: 40%;;
+}
+
+.navg {
+  width: 100%;
+  height: 10%;
+  background-color: rgba(196, 58, 81, 0.897);
+  color: white;
+}
+
+.cart, .itms {
+  display: flex;
+  justify-content: center;
+  padding: 3px;
+  position: sticky;
+}
+
+.list {
+  color: white;
+}
+
+.items {
+  background-color: #61dafb;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.products img {
+  width: 20vw;
+  height: 20vw;
+}
+
+.product {
+  padding: 40px;
+  /* border: 2px solid black; */
+}
+
+.pos {
+  position: sticky;
+  top: 0;
+}
+
+.btnv {
+  background-color: rgb(27, 26, 26);
+  color: rgb(4, 177, 4);
+  display: flex;
+  width: 100px;
+  justify-content: center;
+}
+
+.btnv:Hover {
+  color: white;
+}
+
+.heading {
+  text-align: center;
+}
+
+.about {
+  width: 100%;
+  text-align: center;
+}
+
+.about p {
+  justify-content: center;
+  margin-top: 19%;
+  margin-bottom: 19%;
+  font-family: 'Lobster', cursive;
+  font-size: 2vw;
+}
+
+@media screen and (max-width: 375px) {
+  .pos {
+    width: 118.5%;
+  }
+}
